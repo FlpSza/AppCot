@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    background-color: transparent; /* Remover qualquer cor de fundo */
+}
+
+#country-select {
+    width: 200px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#currency-value {
+    font-size: 24px;
+    font-weight: bold;
+}
