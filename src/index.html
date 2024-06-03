@@ -9,9 +9,8 @@
 <body>
     <div class="container">
         <select id="country-select">
-            <option value="BRL">Real Brasileiro</option>
-            <option value="EUR">Euro</option>
             <option value="USD">Dólar Americano</option>
+            <option value="EUR">Euro</option>
             <option value="GBP">Libra Esterlina</option>
             <option value="JPY">Iene Japonês</option>
             <option value="AUD">Dólar Australiano</option>
@@ -20,7 +19,10 @@
             <option value="CNY">Renminbi Chinês (Yuan)</option>
             <option value="NZD">Dólar Neozelandês</option>
         </select>
-        <div id="currency-value">0</div>
+        <div class="currency-container">
+            <img id="country-flag" src="" alt="Country Flag">
+            <div id="currency-value">0.00</div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

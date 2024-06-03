@@ -6,19 +6,36 @@ body {
 
 .container {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     height: 100vh;
     background-color: transparent; /* Remover qualquer cor de fundo */
+    flex-direction: column;
 }
 
 #country-select {
     width: 200px;
     height: 30px;
+    margin-bottom: 20px;
+}
+
+.currency-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(113, 109, 109); /* Cor de fundo do contêiner */
+    padding: 6px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#country-flag {
     margin-right: 10px;
+    width: 24px;
+    height: 24px;
 }
 
 #currency-value {
-    font-size: 24px;
+    font-size: 15px;
     font-weight: bold;
 }
